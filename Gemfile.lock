@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/MatthiasRMS/messenger-bot-rails
+  revision: fa988268db157ba41453c11ff6f9da7c8cf23661
+  specs:
+    messenger-bot (1.0.3.1)
+
+GIT
   remote: git://github.com/ko1/debugger2.git
   revision: c5bbb3ccaf3b6642d60951c738967db53285a2d0
   specs:
@@ -295,6 +301,7 @@ DEPENDENCIES
   figaro
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  messenger-bot!
   pg (~> 0.18)
   puma (~> 3.7)
   rails (~> 5.1.4)
